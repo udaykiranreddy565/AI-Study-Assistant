@@ -1,0 +1,8 @@
+CREATE DATABASE studybuddy;
+USE studybuddy;
+CREATE TABLE qa (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  question TEXT,
+  answer TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
