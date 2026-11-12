@@ -1,0 +1,21 @@
+package com.model;
+
+// simple class to hold one question and its answer
+public class QA {
+
+    private String question;
+    private String answer;
+
+    public QA(String question, String answer) {
+        this.question = question;
+        this.answer = answer;
+    }
+
+    public String getQuestion() {
+        return question;
+    }
+
+    public String getAnswer() {
+        return answer;
+    }
+}
